@@ -1,0 +1,207 @@
+{
+  "project_info": {
+    "project_number": "509531638275",
+    "firebase_url": "https://fir-training-41037.firebaseio.com",
+    "project_id": "fir-training-41037",
+    "storage_bucket": "fir-training-41037.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:509531638275:android:249df612900d1455b59c36",
+        "android_client_info": {
+          "package_name": "com.example.carbon"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "509531638275-322rrdmr5ck5j6m1gf3q3gv2lcmdl921.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.carbon",
+            "certificate_hash": "0c880e90d6be9737a09df1ccc0ecfa86d94bfa2c"
+          }
+        },
+        {
+          "client_id": "509531638275-84afirfer9bqjj55j1gigs5eb410k5uf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyATGXCYUrvqnGd8aKgcYRQux54S_wqzBGM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "509531638275-84afirfer9bqjj55j1gigs5eb410k5uf.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "509531638275-d6rkhj828jbh0ck794k81e3r2a5jcsht.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.cloonetrain"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:509531638275:android:e74ca1078945190bb59c36",
+        "android_client_info": {
+          "package_name": "com.example.carbonfree"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "509531638275-84afirfer9bqjj55j1gigs5eb410k5uf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyATGXCYUrvqnGd8aKgcYRQux54S_wqzBGM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "509531638275-84afirfer9bqjj55j1gigs5eb410k5uf.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "509531638275-d6rkhj828jbh0ck794k81e3r2a5jcsht.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.cloonetrain"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:509531638275:android:c89c908f7b6da93ab59c36",
+        "android_client_info": {
+          "package_name": "com.example.cloonetrain"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "509531638275-84afirfer9bqjj55j1gigs5eb410k5uf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyATGXCYUrvqnGd8aKgcYRQux54S_wqzBGM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "509531638275-84afirfer9bqjj55j1gigs5eb410k5uf.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "509531638275-d6rkhj828jbh0ck794k81e3r2a5jcsht.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.cloonetrain"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:509531638275:android:79b247073c59628fb59c36",
+        "android_client_info": {
+          "package_name": "com.hanani.todolist"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "509531638275-84afirfer9bqjj55j1gigs5eb410k5uf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyATGXCYUrvqnGd8aKgcYRQux54S_wqzBGM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "509531638275-84afirfer9bqjj55j1gigs5eb410k5uf.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "509531638275-d6rkhj828jbh0ck794k81e3r2a5jcsht.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.cloonetrain"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:509531638275:android:7dca808d412aa10db59c36",
+        "android_client_info": {
+          "package_name": "my.silverbyte.firebase_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "509531638275-8vlcs5s2o6q1qchci0v6v7g0af20jd78.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "my.silverbyte.firebase_app",
+            "certificate_hash": "3e7e6fc64c15ec6f4819969d393d2b1b050bd640"
+          }
+        },
+        {
+          "client_id": "509531638275-84afirfer9bqjj55j1gigs5eb410k5uf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyATGXCYUrvqnGd8aKgcYRQux54S_wqzBGM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "509531638275-84afirfer9bqjj55j1gigs5eb410k5uf.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "509531638275-d6rkhj828jbh0ck794k81e3r2a5jcsht.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.cloonetrain"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
