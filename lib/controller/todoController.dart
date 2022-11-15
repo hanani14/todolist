@@ -6,6 +6,8 @@ class TodoController extends ChangeNotifier{
   
   late Map response;
   Map get getResponse => response;
+  List<Todo> todolist2 =[];
+  List<Todo>  get getTodoList => todolist2;
 
 
  Map dummytodolist = {
@@ -19,7 +21,7 @@ class TodoController extends ChangeNotifier{
           "TODO_ISCHECKED": true
         },
          {
-          "TODO_ID": 2,
+          "TODO_ID":2,
           "TODO_TITLE": "Pay bills at poslaju",
           "TODO_DESC":"Bills electric & water",
           "TODO_DATE": DateTime(2022,11,12,06,30),
@@ -42,7 +44,11 @@ class TodoController extends ChangeNotifier{
 
     try {
       response = dummytodolist['Body'];
-
+      var todolist = response['TODO_LIST'];
+      for(int i =0 ; i<todolist.length; i++){
+       addList(Todo(id:todolist[i]['TODO_ID'],title: todolist[i]['TODO_TITLE'],date: todolist[i]['TODO_DATE'], descriptions: todolist[i]['TODO_DESC'],isComplete: todolist[i]['TODO_ISCHECKED']));
+      }
+      
 
     } catch (f) {
       print(f);
@@ -55,11 +61,26 @@ class TodoController extends ChangeNotifier{
   }
 
 
-List<Todo> updateList([res]){
+List<Todo> updateList2([res]){
   Map todolist = res['TODO_LIST'];
   return [Todo(id:todolist['TODO_ID'],title: todolist['TODO_TITLE'],date: todolist['TODO_DATE'], descriptions: todolist['TODO_DESC'],isComplete: todolist['TODO_ISCHECKED'])];
+// todolist2.add(Todo(id:todolist['TODO_ID'],title: todolist['TODO_TITLE'],date: todolist['TODO_DATE'], descriptions: todolist['TODO_DESC'],isComplete: todolist['TODO_ISCHECKED']));
 }
 
 
+void updateList([res]){
+  Map todolist = res['TODO_LIST'];
+  return todolist2.add(Todo(id:todolist['TODO_ID'],title: todolist['TODO_TITLE'],date: todolist['TODO_DATE'], descriptions: todolist['TODO_DESC'],isComplete: todolist['TODO_ISCHECKED']));
+}
+
+
+void addList(Todo todo){
+  todolist2.add(todo);
+  notifyListeners();
+}
+
+void updateTodo(Todo todoupdate){
+  todolist2[todolist.indexWhere((element) => element.id == todoupdate.id)] = todoupdate;
+}
 
 }
