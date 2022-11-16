@@ -33,6 +33,13 @@ class TodoController extends ChangeNotifier{
           "TODO_DESC":"Wakanda",
           "TODO_DATE": DateTime(2022,11,10,06,30),
           "TODO_ISCHECKED": false
+         },
+        {
+          "TODO_ID": 4,
+          "TODO_TITLE": "Movie Night2",
+          "TODO_DESC":"Wakanda",
+          "TODO_DATE": DateTime(2022,11,10,6,30),
+          "TODO_ISCHECKED": false
         }
       ]
     }
@@ -75,6 +82,7 @@ void updateList([res]){
 
 
 void addList(Todo todo){
+  print("dattaa $todo");
   todolist2.add(todo);
   notifyListeners();
 }
